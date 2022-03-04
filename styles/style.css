@@ -1,0 +1,54 @@
+body {
+  background-image: url(/image/photo-1523961131990-5ea7c61b2107.jpeg);
+  padding: 2vw 4vw;
+  font-family: "Poppins";
+}
+
+body .container {
+  padding: 30px 50px;
+  background-color: white;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 120vh;
+  border-radius: 20px;
+}
+
+body .container form p {
+  padding-top: 10px;
+}
+
+body .container form a {
+  text-decoration: none;
+}
+
+body .container .firstdiv {
+  gap: 15px;
+}
+
+body .container .seconddiv {
+  gap: 5px;
+}
+
+body .container .thirddiv {
+  gap: 5px;
+}
+
+body .container h2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  font-weight: bold;
+}
+
+body .container .numberInput #exampleInputPhone::-webkit-outer-spin-button,
+body .container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

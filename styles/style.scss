@@ -1,0 +1,46 @@
+body {
+  background-image: url(/image/photo-1523961131990-5ea7c61b2107.jpeg);
+  padding: 2vw 4vw;
+  font-family: "Poppins";
+
+  .container {
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    align-items: center;
+    min-height: 120vh;
+    border-radius: 20px;
+    // padding-top: 200px;
+    form {
+      p {
+        padding-top: 10px;
+        // border: 2px solid red;
+      }
+      a {
+        text-decoration: none;
+        // color: black;
+      }
+    }
+
+    .firstdiv {
+      gap: 15px;
+    }
+    .seconddiv {
+      gap: 5px;
+    }
+    .thirddiv {
+      gap: 5px;
+    }
+    h2 {
+      justify-content: center;
+      display: flex;
+      color: black;
+      font-weight: bold;
+    }
+    .numberInput #exampleInputPhone::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
