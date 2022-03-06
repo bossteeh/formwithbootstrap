@@ -30,6 +30,13 @@ body {
       display: flex;
       align-items: center;
     //   justify-content: center;
+    @media screen, (min-width:576px) and (max-width:768px) {
+        .seconddiv{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+        
     }
     .thirddiv {
       gap: 5px;

@@ -37,6 +37,18 @@ body .container .seconddiv {
           align-items: center;
 }
 
+@media screen, (min-width: 576px) and (max-width: 768px) {
+  body .container .seconddiv .seconddiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 body .container .thirddiv {
   gap: 5px;
 }
