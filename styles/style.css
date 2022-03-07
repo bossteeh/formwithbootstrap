@@ -1,6 +1,6 @@
 body {
   background-image: url(/image/photo-1523961131990-5ea7c61b2107.jpeg);
-  padding: 2vw 4vw;
+  padding: 8vw 12vw;
   font-family: "Poppins";
 }
 
@@ -28,25 +28,15 @@ body .container .firstdiv {
 }
 
 body .container .seconddiv {
-  gap: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media screen, (min-width: 576px) and (max-width: 768px) {
-  body .container .seconddiv .seconddiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .container .thirddiv {
@@ -68,5 +58,12 @@ body .container .numberInput #exampleInputPhone::-webkit-outer-spin-button,
 body .container input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: none;
+    font-family: "Poppins";
+  }
 }
 /*# sourceMappingURL=style.css.map */

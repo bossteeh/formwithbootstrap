@@ -1,6 +1,6 @@
 body {
   background-image: url(/image/photo-1523961131990-5ea7c61b2107.jpeg);
-  padding: 2vw 4vw;
+  padding: 8vw 12vw;
   font-family: "Poppins";
 
   .container {
@@ -26,16 +26,11 @@ body {
       gap: 15px;
     }
     .seconddiv {
-      gap: 5px;
       display: flex;
       align-items: center;
-    //   justify-content: center;
-    @media screen, (min-width:576px) and (max-width:768px) {
-        .seconddiv{
-            display: flex;
-            flex-direction: row;
-        }
-    }
+      justify-content: space-evenly;
+    
+    
         
     }
     .thirddiv {
@@ -54,3 +49,9 @@ body {
     }
   }
 }
+@media screen and (max-width:500px) {
+  body {
+    background-image:none;
+    font-family: "Poppins";
+  
+}}
